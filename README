@@ -1,0 +1,3 @@
+Перед запуском бота в терминал нужно ввести поочередно команды:
+pip install -U aiogram
+pip install nest_asyncio
