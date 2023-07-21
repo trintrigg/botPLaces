@@ -24,7 +24,7 @@ cur=con.cursor()
 
 nest_asyncio.apply()
 
-bot = Bot(token='5577755058:AAFru2aIBGdc7uDqDUcqQ8ER0J8Sp12A9Ww')
+bot = Bot(token='') # Токен приложен в заявке, его нужно скопировать и вставить в кавычки в этой строке. Пример: bot = Bot(token='СЮДА')
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 class AddState(StatesGroup):
